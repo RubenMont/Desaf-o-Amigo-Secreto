@@ -27,3 +27,16 @@ function agregaNombre (){
     console.log(lista);
 }
 
+function sortearAmigo(){
+    let lista = document.getElementById("listaAmigos");
+    let ganador = document.getElementById("resultado");
+    if (amigos.length == 0){
+        alert("Agregue nombres primero por favor");
+    }
+    else{
+        elementoRandom = parseInt(Math.floor(Math.random()*amigos.length));
+        ganador.innerHTML = `🎉${amigos[elementoRandom]}🎉`;
+        lista.innerHTML = "";
+        amigos.length = 0;
+    }
+}
