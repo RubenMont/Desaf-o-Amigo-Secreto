@@ -20,9 +20,3 @@ Este es un pequeño programa en JavaScript que permite agregar nombres de amigos
 - HTML
 - CSS
 - JavaScript
-
-## 📌 Cómo Clonar el Proyecto
-
-1. Abre la terminal y ejecuta:
-   ```sh
-   git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
